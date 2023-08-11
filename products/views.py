@@ -11,10 +11,10 @@ def products(request):
         "title": "Store - Catalog",
         "products": [
             {
-                "image": "static/vendor/img/products/Adidas-hoodie.png",
-                "name": "Худи черного цвета с монограммами adidas Originals",
+                "image": "/static/vendor/img/products/Adidas-hoodie.png",
+                "name": "Hoodie in black with monogrammes adidas Originals",
                 "price": 6090,
-                "description": "Мягкая ткань для свитшотов. Стиль и комфорт – это образ жизни."
+                "description": "Soft fabric for sweatshots. Style and comfort is a way of life."
             },
             {
                 "image": "/static/vendor/img/products/Blue-jacket-The-North-Face.png",
