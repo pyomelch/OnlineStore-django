@@ -30,4 +30,4 @@ class Basket(models.Model):
     created_timestamp = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Basket for {self.user.email} | Product {self.product.name}"
+        return f"Basket for {self.user.username} | Product {self.product.name}"
