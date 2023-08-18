@@ -3,5 +3,6 @@ venv/
 db.sqlite3
 **__pycache__
 products_images/
+users_images/
 fixtures/
 .env
