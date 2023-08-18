@@ -1,6 +1,4 @@
-from django.shortcuts import render, HttpResponseRedirect
-from django.contrib import auth
-from django.urls import reverse, reverse_lazy
+from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView
 from django.contrib.auth.views import LoginView
 
