@@ -39,10 +39,3 @@ class UserProfileView(UpdateView):
         context["title"] = "Store - Profile"
         context["baskets"] = Basket.objects.filter(user=self.object)
         return context
-
-
-def logout(request):
-    auth.logout(request)
-    return HttpResponseRedirect(reverse("index"))
-
-
