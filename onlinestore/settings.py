@@ -32,6 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+DOMAIN_NAME = "http://127.0.0.1:8000"
+
 
 # Application definition
 
@@ -187,3 +189,8 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
     }
 }
+
+# Stripe
+
+STRIPE_PUBLIC_KEY = os.getenv("STRIPE_PUBLIC_KEY")
+STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
